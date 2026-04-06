@@ -15,7 +15,7 @@ The project explores several optimization tiers to minimize the computational bo
 | Optimization Level | Golay Total Time | ZC Total Time |
 | :--- | :--- | :--- |
 | **Baseline (No Optimization)** | 5.45 s | 1.17 s|
-| **Twiddle Factors + Compiler Flags** | 1.51 s |  |
+| **Twiddle Factors + Compiler Flags** | 1.51 s |  0.402 s |
 | **Total Time Reduction** | **~72.3%** | **~65.6%** |
 
 
