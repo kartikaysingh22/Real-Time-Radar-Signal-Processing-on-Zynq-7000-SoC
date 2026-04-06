@@ -22,4 +22,4 @@ The project explores several optimization tiers to minimize the computational bo
 ## Results
 The system demonstrates that Golay processing generally achieves lower Root Mean Square Error (RMSE) at lower SNR levels compared to Zadoff-Chu, showing higher robustness in extremely noisy environments. A sharp drop in estimation error is observed around -40 dB to -38 dB, where the target signal becomes distinguishable from noise. 
 
-###more details can be found in the report attached
+more details can be found in the report attached
