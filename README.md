@@ -2,7 +2,7 @@
 This project implements a real-time radar signal processing pipeline on the Xilinx Zynq-7000 SoC platform. The system compares the performance of Golay Complementary Pairs (GCP) and Zadoff-Chu (ZC) sequences for target range and radial velocity estimation under varying noise conditions.
 The implementation features a complete bare-metal signal processing chain in Embedded C, optimized for high-performance execution on the ARM Cortex-A9 core.
 
-# Key Features
+## Key Features
 1. Waveform Design: Generation of length-512 Golay pairs and Zadoff-Chu sequences.
 2. Custom Signal Processing: Bare-metal implementation of Radix-2 FFT, IFFT, and matched filtering.
 3. Hardware Acceleration: Extensive use of compiler optimizations and algorithmic improvements (Twiddle Factor LUTs) to reduce processing time.
@@ -19,7 +19,7 @@ The project explores several optimization tiers to minimize the computational bo
 | **Total Time Reduction** | **~72.3%** | **~65.6%** |
 
 
-# Results
+## Results
 The system demonstrates that Golay processing generally achieves lower Root Mean Square Error (RMSE) at lower SNR levels compared to Zadoff-Chu, showing higher robustness in extremely noisy environments. A sharp drop in estimation error is observed around -40 dB to -38 dB, where the target signal becomes distinguishable from noise. 
 
-more details can be found in the report.
+###more details can be found in the report attached
